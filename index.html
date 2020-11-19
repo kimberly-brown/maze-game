@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <!-- https://codepen.io/TheCodeDepository/pen/jKBaoN?page=8 -->
+  <!-- file:///Users/kimberlybrown/code/maze-JS/index.html -->
+</head>
+<body>
+  <div id="gradient">
+  <div id="page">
+    <div id="Message-Container">
+      <div id="message">
+        <h1>Nice one!</h1>
+        <input id="okBtn" type="button" value="Cool!"/>
+      </div>
+    </div>
+
+    <div id="menu">
+      <!-- level selection -->
+      <div class="custom-select">
+        <select id="diffSelect">
+          <option value="10">Easy</option>
+        </select>
+      </div>
+      <input id="startMazeBtn" type="button" value="Start"/>
+    </div>
+    <div id="view">
+      <div id="mazeContainer">
+        <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"/>
+  <script src="main.js"/>
+</body>
+</html>
